@@ -22,6 +22,7 @@
 		A6E727481C6C1D5E0022D8F2 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E727471C6C1D5E0022D8F2 /* Auth.swift */; };
 		A6E7274A1C6C1D660022D8F2 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E727491C6C1D660022D8F2 /* Platform.swift */; };
 		A6E7274C1C6C1E2B0022D8F2 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E7274B1C6C1E2B0022D8F2 /* Subscription.swift */; };
+		A6E727511C6C25010022D8F2 /* SDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E727501C6C25010022D8F2 /* SDKTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A6E727471C6C1D5E0022D8F2 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		A6E727491C6C1D660022D8F2 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 		A6E7274B1C6C1E2B0022D8F2 /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		A6E727501C6C25010022D8F2 /* SDKTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKTests.swift; sourceTree = "<group>"; };
 		BEC9B7CEEAAF109ADA1B47CA /* Pods-src.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-src.debug.xcconfig"; path = "Pods/Target Support Files/Pods-src/Pods-src.debug.xcconfig"; sourceTree = "<group>"; };
 		C000E5C6960CC65C40DA7118 /* Pods_src.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_src.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,6 +133,7 @@
 		A6E727261C6C1A5C0022D8F2 /* srcTests */ = {
 			isa = PBXGroup;
 			children = (
+				A6E7274D1C6C24820022D8F2 /* Core */,
 				A6E727271C6C1A5C0022D8F2 /* srcTests.swift */,
 				A6E727291C6C1A5C0022D8F2 /* Info.plist */,
 			);
@@ -181,6 +184,14 @@
 				A6E7274B1C6C1E2B0022D8F2 /* Subscription.swift */,
 			);
 			name = Subscription;
+			sourceTree = "<group>";
+		};
+		A6E7274D1C6C24820022D8F2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A6E727501C6C25010022D8F2 /* SDKTests.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E727511C6C25010022D8F2 /* SDKTests.swift in Sources */,
 				A6E727281C6C1A5C0022D8F2 /* srcTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
