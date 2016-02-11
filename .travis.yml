@@ -1,0 +1,15 @@
+language: objective-c
+osx_image: xcode7
+
+xcode_project: src.xcodeproj
+xcode_scheme: srcTests
+
+script:
+  - xcodebuild test -project src/src.xcodeproj -scheme src/srcTests
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
+# Only build PRs and pushes to master
+branches:
+  only:
+    - master
