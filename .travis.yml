@@ -5,7 +5,7 @@ xcode_project: src.xcodeproj
 xcode_scheme: srcTests
 
 script:
-  - xcodebuild test -project src/src.xcodeproj -scheme src/srcTests
+  - xcodebuild test -project src.xcodeproj -scheme srcTests
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 
